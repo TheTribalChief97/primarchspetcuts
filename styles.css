@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    color: gold;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+#header-image {
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+    width: 150px; 
+    height: 90px; 
+    border-radius: 8px; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: gold;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid gold;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid gold;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
